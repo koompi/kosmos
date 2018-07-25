@@ -1,4 +1,4 @@
-#GNU General Public License, version 3 (GPL-3.0)
+# GNU General Public License, version 3 (GPL-3.0)
 
 KramaOS is based on Ubuntu Sever 18.04 LTS. It's design specifically for 
 Koompi Notebook and its hardwares. 
