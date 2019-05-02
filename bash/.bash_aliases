@@ -8,16 +8,26 @@ alias r='cd / ; ls -laGh --color=auto'
 
 
 # git stuff
-alias ga='git add .'
 alias gc='git clone'
+alias gt='git stash'
 alias gs='git status'
-# git commit func
-function gm() { git commit -m "$1"; }
-# git push master
-alias gp='git push origin master'
-# git push brance
-function gb() { git push origin "$1"; }
+alias gp='git pull .'
+
+# git add commit push to master func
+function gm() {
+    git add .
+    git commit -m $(echo $1);
+    git push -u origin master
+}
+
+function gb() { 
+    git add . 
+    git commit -m $(echo $1);
+    git push -u origin $(echo $2); 
+}
 
 # edit with nano
+alias sn='sudo nano'
+alias tail='tail -l 100'
 
 
