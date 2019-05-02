@@ -20,7 +20,8 @@ Mirror
 > Arch official repo 
 > KOSMOS Unstable repo 
 > KOSMOS Testing brances by our team and developers community 
-> KOSMOS Stable for general users which will be hosted in varias location and sync to our stable brance in Cambodia/Singapore.
+> KOSMOS Stable for general users which will be hosted in varias
+ location and sync to our stable brance in Cambodia/Singapore.
 ```
 KOSMOS piggybacks ride on many open sources work. Without the open source community we wouldn't be able to do what we do today. Again, it's just the begining of our journey, yet. Greater adventure is await. 
 
